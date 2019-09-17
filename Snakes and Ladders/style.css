@@ -1,0 +1,29 @@
+body{
+    background-color: darkolivegreen;
+}
+
+td, table{
+    border: 1px solid black;
+}
+
+td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+button{
+    border-radius: 20px;
+    background-color: brown;
+    border: 1px solid salmon;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px 10px salmon;
+    font-size: 23px;
+    cursor: pointer;
+}
